@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <div className="bg-[url('/images/bg2.jpg')] h-screen w-screen relative overflow-hidden min-w-[375px] min-h-[700px] max-h-[1440px]">
+    <div className="bg-[url('/images/bg2.jpg')] h-screen w-screen relative overflow-hidden min-w-[375px] max-w-[1600px] min-h-[700px] max-h-[1440px]">
       {/* TOP */}
       <div className="absolute bg-[url('/images/topx.png')] bg-right-top bg-no-repeat h-full w-full top-0 right-0">
         <div className='text-right py-2 px-3 md:text-center'>
@@ -43,22 +43,22 @@ export default function App() {
           <div className='mt-12 mr-3 flex gap-3 justify-end text-center items-end sm:flex-col md:gap-4'>
             <a
               className='text-slate-700 bg-white uppercase text-sm rounded-md transition-all duration-300
-              border-2 border-transparent hover:border-cyan-400 font-bold w-1/3 sm:w-2/5 md:w-1/3'
+              border-2 border-transparent hover:border-cyan-400 font-bold w-1/3 sm:w-2/5 md:w-1/3 max-w-[500px] max-h-[300px]'
               href='https://mariusask-shops.netlify.app/'
             >
               <img
-                className='w-full h-28 object-cover object-top hover:animate-scrollingFast md:h-32'
+                className='w-full h-28 object-cover object-top hover:animate-scrollingFast md:h-32 lg:h-[150px]'
                 src='/images/shops.webp'
                 alt='website preview'
               />
             </a>
             <a
               className='text-slate-700 bg-white uppercase text-sm rounded-md transition-all duration-300
-              border-2 border-transparent hover:border-cyan-400 font-bold w-1/3 sm:w-2/5 md:w-1/3'
+              border-2 border-transparent hover:border-cyan-400 font-bold w-1/3 sm:w-2/5 md:w-1/3 max-w-[500px] max-h-[300px]'
               href='https://youtube-subs-snowy.vercel.app/'
             >
               <img
-                className='w-full h-28 object-cover object-top hover:animate-scrollingFast md:h-32'
+                className='w-full h-28 object-cover object-top hover:animate-scrollingFast md:h-32 lg:h-[150px]'
                 src='/images/youtubeCover.webp'
                 alt='website preview'
               />
