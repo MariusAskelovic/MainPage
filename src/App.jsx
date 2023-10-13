@@ -40,22 +40,28 @@ export default function App() {
           <p className='text-slate-100 font-bold text-2xl -rotate-[17deg] inline-block mr-16 md:text-4xl md:mt-4'>
             React + Tailwind CSS
           </p>
-          <div className='mt-12 mr-6 flex flex-col gap-2 text-center items-end md:gap-4'>
+          <div className='mt-12 mr-3 flex gap-3 justify-end text-center items-end sm:flex-col md:gap-4'>
             <a
-              className='text-slate-700 py-1 bg-white uppercase text-sm rounded-md transition-all duration-300
-              hover:bg-cyan-400 font-bold w-[150px] md:w-[300px] md:text-lg md:py-2 hover:-skew-x-12'
+              className='text-slate-700 bg-white uppercase text-sm rounded-md transition-all duration-300
+              border-2 border-transparent hover:border-cyan-400 font-bold w-1/3 sm:w-2/5 md:w-1/3'
               href='https://mariusask-shops.netlify.app/'
             >
-              CodeAcademy{' '}
-              <span className='block md:inline-block'>exam project</span>
+              <img
+                className='w-full h-28 object-cover object-top hover:animate-scrollingFast md:h-32'
+                src='/images/shops.webp'
+                alt='website preview'
+              />
             </a>
             <a
-              className='text-slate-700 py-1 bg-white uppercase text-sm rounded-md transition-all duration-300
-              hover:bg-cyan-400 font-bold w-[150px] md:w-[300px] md:text-lg md:py-2 hover:skew-x-12'
+              className='text-slate-700 bg-white uppercase text-sm rounded-md transition-all duration-300
+              border-2 border-transparent hover:border-cyan-400 font-bold w-1/3 sm:w-2/5 md:w-1/3'
               href='https://youtube-subs-snowy.vercel.app/'
             >
-              Youtube{' '}
-              <span className='block md:inline-block'>API experiment</span>
+              <img
+                className='w-full h-28 object-cover object-top hover:animate-scrollingFast md:h-32'
+                src='/images/youtubeCover.webp'
+                alt='website preview'
+              />
             </a>
           </div>
         </div>
@@ -74,8 +80,8 @@ export default function App() {
               href='https://kyivbouquets.netlify.app/'
             >
               <img
-                className='w-full h-28 object-cover hover:animate-scrolling md:h-48'
-                src='/images/kyivbouquets.netlify.app.png'
+                className='w-full h-28 object-cover object-top hover:animate-scrolling md:h-48'
+                src='/images/kyivbouquets.webp'
                 alt='website preview'
               />
             </a>

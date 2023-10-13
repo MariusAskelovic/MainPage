@@ -10,7 +10,8 @@ export default {
         },
       },
       animation: {
-        scrolling: 'move 30s linear infinite',
+        scrolling: 'move 20s linear infinite',
+        scrollingFast: 'move 2s linear infinite alternate',
       },
     },
   },
