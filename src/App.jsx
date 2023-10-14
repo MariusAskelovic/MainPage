@@ -24,7 +24,11 @@ export default function App() {
               <i className='hover:animate-pulse fa-brands fa-github text-3xl md:text-6xl text-white transition duration-500 hover:text-cyan-400 hover:duration-300 ease-in-out'></i>
             </a>
           </div>
-          <div className='block h-8 rotate-[-17deg] absolute top-64 right-32'>
+          <div className='block h-8 rotate-[-17deg] absolute top-52 right-32'>
+            <p className='text-white text-xs text-left w-56 mb-2'>
+              This design doesn&apos;t look anything I thought it will look, so
+              new Landpage soon
+            </p>
             <img
               className='h-8 md:h-12'
               src='https://skillicons.dev/icons?i=html,css,javascript,react,bootstrap,tailwind'
