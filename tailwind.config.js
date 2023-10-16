@@ -21,8 +21,9 @@ export default {
         },
       },
       animation: {
-        scrolling: 'move 20s linear infinite',
-        scrollingFast: 'move 2s linear infinite alternate',
+        scrolling5s: 'move 5s linear infinite alternate',
+        scrolling10s: 'move 10s linear infinite alternate',
+        scrolling30s: 'move 30s linear infinite alternate',
         border: 'border 10s linear infinite alternate',
       },
     },
