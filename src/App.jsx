@@ -8,44 +8,44 @@ export default function App() {
         <div className='flex justify-between p-4'>
           <div className='flex flex-col gap-3 mt-4'>
             <a href='https://www.linkedin.com/in/marius-askelovic'>
-              <i className='fa-brands fa-linkedin text-5xl md:text-6xl transition-all duration-300 grayscale-[0.2] hover:grayscale-0 text-red-500 ease-in-out hover:scale-105'></i>
+              <i className='fa-brands fa-linkedin text-5xl transition-all duration-300 grayscale-[0.2] hover:grayscale-0 text-red-500 ease-in-out  hover:scale-105'></i>
             </a>
             <a href='https://github.com/MariusAskelovic'>
-              <i className='fa-brands fa-github text-5xl md:text-6xl transition-all duration-300 grayscale-[0.2] hover:grayscale-0 text-red-500 ease-in-out hover:scale-105'></i>
+              <i className='fa-brands fa-github text-5xl transition-all duration-300 grayscale-[0.2] hover:grayscale-0 text-red-500 ease-in-out  hover:scale-105'></i>
             </a>
             <div className='flex flex-col py-4 gap-2'>
-              <div className='flex gap-1 md:flex-col'>
+              <div className='flex gap-1 sm:flex-col'>
                 <img
-                  className='h-6 md:h-12 transition-all duration-500'
+                  className='h-6 sm:h-8 transition-all duration-500'
                   src='https://skillicons.dev/icons?i=html'
                   alt='html and css icons'
                 />
                 <img
-                  className='h-6 md:h-12 transition-all duration-500'
+                  className='h-6 sm:h-8 transition-all duration-500'
                   src='https://skillicons.dev/icons?i=css'
                   alt='html and css icons'
                 />
               </div>
-              <div className='flex gap-1 md:flex-col'>
+              <div className='flex gap-1 sm:flex-col'>
                 <img
-                  className='h-6 md:h-12 transition-all duration-500'
+                  className='h-6 sm:h-8 transition-all duration-500'
                   src='https://skillicons.dev/icons?i=javascript'
                   alt='html and css icons'
                 />
                 <img
-                  className='h-6 md:h-12 transition-all duration-500'
+                  className='h-6 sm:h-8 transition-all duration-500'
                   src='https://skillicons.dev/icons?i=react'
                   alt='html and css icons'
                 />
               </div>
-              <div className='flex gap-1 md:flex-col'>
+              <div className='flex gap-1 sm:flex-col'>
                 <img
-                  className='h-6 md:h-12 transition-all duration-500'
+                  className='h-6 sm:h-8 transition-all duration-500'
                   src='https://skillicons.dev/icons?i=bootstrap'
                   alt='html and css icons'
                 />
                 <img
-                  className='h-6 md:h-12 transition-all duration-500'
+                  className='h-6 sm:h-8 transition-all duration-500'
                   src='https://skillicons.dev/icons?i=tailwind'
                   alt='html and css icons'
                 />
@@ -88,7 +88,7 @@ export default function App() {
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling10s md:h-32 lg:h-[150px] border-2 border-black'
+            className='w-full h-40 object-cover object-top hover:animate-scrolling10s sm:h-64 lg:h-[150px] border-2 border-black'
             src='/images/shops.webp'
             alt='website preview'
           />
@@ -110,7 +110,7 @@ export default function App() {
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling5s md:h-32 lg:h-[150px] border-2 border-black'
+            className='w-full h-40 object-cover object-top hover:animate-scrolling5s sm:h-64 lg:h-[150px] border-2 border-black'
             src='/images/youtubeCover.webp'
             alt='website preview'
           />
@@ -132,7 +132,7 @@ export default function App() {
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling30s md:h-32 lg:h-[150px] border-2 border-black'
+            className='w-full h-40 object-cover object-top hover:animate-scrolling30s sm:h-64 lg:h-[150px] border-2 border-black'
             src='/images/kyivbouquets.webp'
             alt='website preview'
           />
