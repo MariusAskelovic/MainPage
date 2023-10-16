@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <div className='bg-zinc-50 w-screen min-h-screen mb-4'>
+    <div className='w-screen min-h-screen mb-4 mx-auto max-w-6xl'>
       <div className='py-4 px-2 md:flex md:flex-col'>
         <h1 className='text-3xl font-bold text-neutral-700 text-center shadow-lg py-2 md:flex-shrink-0 w-screen md:text-6xl'>
           FrontEnd Web Developer
@@ -61,7 +61,7 @@ export default function App() {
               alt='my photo'
             />
           </div>
-          <div className='border-2 p-4 shadow-md mb-3 md:w-1/2'>
+          <div className='flex justify-center items-center border-2 p-4 shadow-md mb-3 md:w-1/2'>
             <p className='text-center uppercase'>
               Hi! I&apos;m Marius Askelovic.{' '}
               <span className='block'>
@@ -74,7 +74,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className='flex flex-col gap-8 text-left mx-2 sm:flex-row xl:gap-16 xl:mx-16'>
+      <div className='flex flex-col gap-8 text-left mx-2 sm:flex-row xl:gap-16 lg:mx-16'>
         <a className='w-full' href='https://mariusask-shops.netlify.app/'>
           <div className='flex justify-between p-2 border-2 border-black transition duration-200 shadow-md shadow-black mx-4 mb-1 hover:bg-red-500 hover:shadow-red-500'>
             <p>CodeAcademy last project</p>
@@ -92,7 +92,7 @@ export default function App() {
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling10s sm:h-64 lg:h-[150px] border-2 border-black xl:h-96'
+            className='w-full h-40 object-cover object-top hover:animate-scrolling10s sm:h-64 border-2 border-black lg:h-96'
             src='/images/shops.webp'
             alt='website preview'
           />
@@ -114,7 +114,7 @@ export default function App() {
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling5s sm:h-64 lg:h-[150px] border-2 border-black xl:h-96'
+            className='w-full h-40 object-cover object-top hover:animate-scrolling5s sm:h-64 border-2 border-black lg:h-96'
             src='/images/youtubeCover.webp'
             alt='website preview'
           />
@@ -136,7 +136,7 @@ export default function App() {
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling30s sm:h-64 lg:h-[150px] border-2 border-black xl:h-96'
+            className='w-full h-40 object-cover object-top hover:animate-scrolling30s sm:h-64 border-2 border-black lg:h-96'
             src='/images/kyivbouquets.webp'
             alt='website preview'
           />
