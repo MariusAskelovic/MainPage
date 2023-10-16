@@ -74,7 +74,7 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className='flex flex-col gap-8 text-left mx-2 sm:flex-row'>
+      <div className='flex flex-col gap-8 text-left mx-2 sm:flex-row xl:gap-16 xl:mx-16'>
         <a className='w-full' href='https://mariusask-shops.netlify.app/'>
           <div className='flex justify-between p-2 border-2 border-black transition duration-200 shadow-md shadow-black mx-4 mb-1 hover:bg-red-500 hover:shadow-red-500'>
             <p>CodeAcademy last project</p>
@@ -92,7 +92,7 @@ export default function App() {
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling10s sm:h-64 lg:h-[150px] border-2 border-black'
+            className='w-full h-40 object-cover object-top hover:animate-scrolling10s sm:h-64 lg:h-[150px] border-2 border-black xl:h-96'
             src='/images/shops.webp'
             alt='website preview'
           />
@@ -114,7 +114,7 @@ export default function App() {
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling5s sm:h-64 lg:h-[150px] border-2 border-black'
+            className='w-full h-40 object-cover object-top hover:animate-scrolling5s sm:h-64 lg:h-[150px] border-2 border-black xl:h-96'
             src='/images/youtubeCover.webp'
             alt='website preview'
           />
@@ -136,7 +136,7 @@ export default function App() {
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling30s sm:h-64 lg:h-[150px] border-2 border-black'
+            className='w-full h-40 object-cover object-top hover:animate-scrolling30s sm:h-64 lg:h-[150px] border-2 border-black xl:h-96'
             src='/images/kyivbouquets.webp'
             alt='website preview'
           />
