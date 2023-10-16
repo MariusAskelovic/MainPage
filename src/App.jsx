@@ -76,67 +76,73 @@ export default function App() {
       </div>
       <div className='flex flex-col gap-8 text-left mx-2 sm:flex-row xl:gap-16 lg:mx-16'>
         <a className='w-full' href='https://mariusask-shops.netlify.app/'>
-          <div className='flex justify-between p-2 border-2 border-black transition duration-200 shadow-md shadow-black mx-4 mb-1 hover:bg-red-500 hover:shadow-red-500'>
-            <p>CodeAcademy last project</p>
+          <div className='flex justify-between items-center p-2 border-2 border-black transition duration-200 shadow-md shadow-black mx-4 mb-1 hover:bg-red-500 hover:shadow-red-500'>
+            <p>
+              CodeAcademy <span className='md:block'>last project</span>
+            </p>
             <div className='flex gap-1'>
               <img
-                className='h-6 md:h-12 transition-all duration-500'
+                className='h-6 md:h-10 transition-all duration-500'
                 src='https://skillicons.dev/icons?i=react'
                 alt='html and css icons'
               />
               <img
-                className='h-6 md:h-12 transition-all duration-500'
+                className='h-6 md:h-10 transition-all duration-500'
                 src='https://skillicons.dev/icons?i=tailwind'
                 alt='html and css icons'
               />
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling10s sm:h-64 border-2 border-black lg:h-96'
+            className='w-full h-60 object-cover object-top hover:animate-scrolling10s sm:h-64 border-2 border-black lg:h-96'
             src='/images/shops.webp'
             alt='website preview'
           />
         </a>
         <a className='w-full' href='https://youtube-subs-snowy.vercel.app/'>
-          <div className='flex justify-between p-2 border-2 border-black transition duration-200 shadow-md shadow-black mx-4 mb-1 hover:bg-red-500 hover:shadow-red-500'>
-            <p>Youtube API test project</p>
+          <div className='flex justify-between items-center p-2 border-2 border-black transition duration-200 shadow-md shadow-black mx-4 mb-1 hover:bg-red-500 hover:shadow-red-500'>
+            <p>
+              Youtube API <span className='md:block'>test project</span>
+            </p>
             <div className='flex gap-1'>
               <img
-                className='h-6 md:h-12 transition-all duration-500'
+                className='h-6 md:h-10 transition-all duration-500'
                 src='https://skillicons.dev/icons?i=react'
                 alt='html and css icons'
               />
               <img
-                className='h-6 md:h-12 transition-all duration-500'
+                className='h-6 md:h-10 transition-all duration-500'
                 src='https://skillicons.dev/icons?i=tailwind'
                 alt='html and css icons'
               />
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling5s sm:h-64 border-2 border-black lg:h-96'
+            className='w-full h-60 object-cover object-top hover:animate-scrolling5s sm:h-64 border-2 border-black lg:h-96'
             src='/images/youtubeCover.webp'
             alt='website preview'
           />
         </a>
         <a className='w-full' href='https://kyivbouquets.netlify.app/'>
-          <div className='flex justify-between p-2 border-2 border-black transition duration-200 shadow-md shadow-black mx-4 mb-1 hover:bg-red-500 hover:shadow-red-500'>
-            <p>Kyiv Bouquets figma practice</p>
+          <div className='flex justify-between items-center p-2 border-2 border-black transition duration-200 shadow-md shadow-black mx-4 mb-1 hover:bg-red-500 hover:shadow-red-500'>
+            <p>
+              Kyiv Bouquets <span className='md:block'>figma practice</span>
+            </p>
             <div className='flex gap-1'>
               <img
-                className='h-6 md:h-12 transition-all duration-500'
+                className='h-6 md:h-10 transition-all duration-500'
                 src='https://skillicons.dev/icons?i=javascript'
                 alt='html and css icons'
               />
               <img
-                className='h-6 md:h-12 transition-all duration-500'
+                className='h-6 md:h-10 transition-all duration-500'
                 src='https://skillicons.dev/icons?i=sass'
                 alt='html and css icons'
               />
             </div>
           </div>
           <img
-            className='w-full h-40 object-cover object-top hover:animate-scrolling30s sm:h-64 border-2 border-black lg:h-96'
+            className='w-full h-60 object-cover object-top hover:animate-scrolling30s sm:h-64 border-2 border-black lg:h-96'
             src='/images/kyivbouquets.webp'
             alt='website preview'
           />
