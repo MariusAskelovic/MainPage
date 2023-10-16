@@ -8,10 +8,10 @@ export default function App() {
         <div className='flex justify-between p-4'>
           <div className='flex flex-col gap-3 mt-4'>
             <a href='https://www.linkedin.com/in/marius-askelovic'>
-              <i className='fa-brands fa-linkedin text-5xl md:text-6xl transition-all duration-300 grayscale-[0.2] hover:grayscale-0 text-red-500 ease-in-out shadow-black shadow-sm hover:shadow-red-500 hover:scale-105'></i>
+              <i className='fa-brands fa-linkedin text-5xl md:text-6xl transition-all duration-300 grayscale-[0.2] hover:grayscale-0 text-red-500 ease-in-out hover:scale-105'></i>
             </a>
             <a href='https://github.com/MariusAskelovic'>
-              <i className='fa-brands fa-github text-5xl md:text-6xl transition-all duration-300 grayscale-[0.2] hover:grayscale-0 text-red-500 ease-in-out shadow-black shadow-sm hover:shadow-red-500 hover:scale-105'></i>
+              <i className='fa-brands fa-github text-5xl md:text-6xl transition-all duration-300 grayscale-[0.2] hover:grayscale-0 text-red-500 ease-in-out hover:scale-105'></i>
             </a>
             <div className='flex flex-col py-4 gap-2'>
               <div className='flex gap-1 md:flex-col'>
