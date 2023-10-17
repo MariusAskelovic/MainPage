@@ -1,8 +1,8 @@
 export default function App() {
   return (
     <div className='w-screen min-h-screen mb-4 mx-auto max-w-6xl'>
-      <div className='py-4 px-2 md:flex md:flex-col'>
-        <h1 className='text-3xl font-bold text-neutral-700 text-center shadow-lg py-2 md:flex-shrink-0 w-screen md:text-6xl'>
+      <div className='py-4 px-2 md:flex md:flex-col text-center'>
+        <h1 className='text-3xl font-bold text-neutral-700 shadow-lg py-2 md:text-6xl'>
           FrontEnd Web Developer
         </h1>
         <div className='md:flex md:h-64'>
